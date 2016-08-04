@@ -8,7 +8,7 @@ module Azure::ARM::Compute
     #
     # Describes a Virtual Machine.
     #
-    class VirtualMachine < MsRestAzure::Resource
+    class VirtualMachine < MsRestAzure::SubResource
 
       include MsRestAzure
 
